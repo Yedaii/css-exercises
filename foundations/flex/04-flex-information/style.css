@@ -1,5 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /*My solution below.*/
+  text-align: center;
+  /*My solution above.*/
 }
 
 img {
@@ -10,6 +13,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +27,18 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/*My solution below.*/
+.contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 52px;
+
+}
+
+/*Could've just named info, so that I wouldn't need to list every plants name.*/
+.barberry, .chili, .pepper, .saffron {
+  width: 200px;
 }
